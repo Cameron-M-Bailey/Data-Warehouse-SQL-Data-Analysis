@@ -13,3 +13,5 @@ This dataset is from the StockX 2019 Data Contest. It consists of sales provided
 <b>Release Date:</b> release date of sneaker<br>
 <b>Shoe Size:</b> sneaker shoe size<br>
 <b>Buyer Region:</b> customer location<br>
+# Data Warehouse 
+<img width="347" alt="Screenshot 2023-01-28 at 3 33 10 PM" src="https://user-images.githubusercontent.com/104586192/215291506-c6317769-c634-4e40-ab18-922d0c4ea710.png">
