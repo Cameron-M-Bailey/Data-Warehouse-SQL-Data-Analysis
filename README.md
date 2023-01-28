@@ -95,8 +95,8 @@ GROUP BY sneaker_name) AS t1
 ```sql 
 SELECT sneaker_name, average_sales,
 RANK() OVER (ORDER BY average_sales DESC)
-FROM
-(SELECT sneaker_name, AVG(sale_price) AS average_sales
+FROM (SELECT sneaker_name, 
+AVG(sale_price) AS average_sales
 FROM fact_sales
 JOIN dim_product USING(product_id)
 GROUP BY sneaker_name) AS t1
