@@ -178,4 +178,14 @@ WHERE EXTRACT ('year' FROM order_date) = 2018
 AND order_date BETWEEN '2018-10-01' AND '2018-12-31'
 AND brand = 'Off-White';
 ```
+# Key Insights 
+- Based on sales per capita, Oregan and Delaware greatly lead in product sales with key markets New York and California being 3rd and 5th, respectively.
+- Total loss for 2018 accounts for only 0.01% of total sales, most sneakers are performing above original retail price.
+- On average, high demand sneakers are selling 370% over their original market price.  
+- The top performing sneakers are the Nike x Off-White Air Jordan 1 Retro High Tops in White and Chicao colorways; Adidas Yeezy Boost 350 V2 in Sesame and Butter colorways are selling the worst.
+- Sneaker sizes 9 - 11 are the most in demand. 
+- In 2019, Yeezy's total sales are close to double of Nike x Off-White sales. 
+- There is no correlation between sneakers being on the market longer and higher sale prices. 
+
+                                                                                                                                                                      
 
