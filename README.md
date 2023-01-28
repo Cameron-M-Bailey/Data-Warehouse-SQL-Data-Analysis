@@ -1,7 +1,7 @@
 # Data-Warehouse-SQL-Data-Analysis
 ### The development of a small-scale data warehouse in a star schema and analysis of StockX sales data using SQL.
 # Objective 
-The project builds a simple data warehouse in PostgreSQL in order to query and analyze StockX sales and product data for Yeezy and Nike x Off-White sneakers. SQL queries were written to accomplish a variety of tasks including to create custom functions, identify top performing products, and calculate sneakers with the best resale value. 
+The project builds a simple data warehouse in PostgreSQL in order to query and analyze StockX sales and product data for Yeezy and Nike x Off-White sneakers. SQL queries were written to accomplish a variety of tasks including create custom functions, identify top performing products, and calculate sneakers with the best resale value. 
 # Dataset 
 This dataset is from the StockX 2019 Data Contest. It consists of sales provided by StockX with approximately 10,000 shoe sales from 50 different models of Nike x Off-White and Yeezy. Data includes:
 
