@@ -64,6 +64,7 @@ ORDER BY per_capita DESC, buyer_region ASC;
 ```
 #### Identify Sneakers with Poor Selling Performance and Calculate Total Monthly Loss
 ```sql
+# Calculate total loss from sneakers who sell under their original retail price 
 WITH poor_performance AS 
 (SELECT DATE_TRUNC('month', order_date) AS monthly, 
  (sale_price - retail_price) AS total_loss
@@ -71,11 +72,13 @@ WITH poor_performance AS
  JOIN dim_date USING(date_id)
  WHERE retail_price > sale_price AND EXTRACT ('year' FROM order_date) = 2018),
  
+ # Group total loss by month 
  poor_performance_total AS
  (SELECT monthly, SUM(total_loss) AS monthly_total_loss
  FROM poor_performance
  GROUP BY monthly)
  
+# Create report showcasing sneakers with poor selling performance by month 
 SELECT * FROM poor_performance_total;
 ```
 #### Average Sales Comparison by Quartile  
