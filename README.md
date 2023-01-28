@@ -14,9 +14,9 @@ This dataset is from the StockX 2019 Data Contest. It consists of sales provided
 <b>Shoe Size:</b> sneaker shoe size<br>
 <b>Buyer Region:</b> customer location<br>
 # Data Warehouse - Entity Relationship Diagram
+A simple data warehouse with a fact table containing the original retail price and sales price as well as dimension tables containing customer, date, and product data. The static dimension DIM_STATE_POP contains state population data in order to calculate sales per capita.
+
 <img width="560" alt="Screenshot 2023-01-28 at 4 19 52 PM" src="https://user-images.githubusercontent.com/104586192/215291657-3b1df6d5-630d-4e1f-b10a-464ced66fa3a.png">
-- A simple data warehouse with our fact table containing the original retail price and sales price and our dimensions containing customer, date, and product data.<br>
-- The static dimension DIM_STATE_POP contains state population data in order to calculate sales per capita.<br>
 
 # Data Analysis using SQL 
 
